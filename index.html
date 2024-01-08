@@ -15,6 +15,7 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body>
@@ -34,11 +35,11 @@
         </div>
     </header>
     <!-- hero  -->
-    <section class="hero" id="home">
-        <div class="main-content">
+    <section class="hero" id="home" >
+        <div class="main-content"  data-aos="fade-in">
             <h4>Hi, There!</h4>
             <h1>I'm <span>NajeeB Ullah</span></h1>
-            <p>welcome! to my portfolio This is me Najeeb I'm a front-End developer. Tell me how can i do for you.</p>
+            <p>welcome! to my portfolio This is me Najeeb I'm a front-End developer. Tell me how can i do for you. i'm on the base of HTML, CSS & JAVASCRIPT to create a full Responsive Website for front-End.</p>
             <div class="social">
                 <a href="#"><i class="ri-facebook-fill"></i></a>
                 <a href="#"><i class="ri-linkedin-box-fill"></i></a>
@@ -54,10 +55,10 @@
     </section>
     <!-- about -->
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="./assets/short.png" alt="">
+        <div class="about-img"  data-aos="zoom-in-down">
+            <img src="./assets/me-removebg-preview.png" alt="">
         </div>
-        <div class="about-text">
+        <div class="about-text" data-aos="zoom-in-up">
             <h2>I'm product <span>Designer</span> <br> & Web Developer</h2>
             <div class="exp-area">
                 <p class="exp">
@@ -94,10 +95,10 @@
     <!-- service -->
 
     <section class="services" id="services">
-        <div class="center-text">
+        <div class="center-text" data-aos="zoom-down">
             <h2>My <span>Services</span></h2>
         </div>
-        <div class="Services-content">
+        <div class="Services-content" data-aos="zoom-in-up">
             <div class="box">
              <img class="img-icon" src="./assets/icons-service.png" alt="">
                 <h3>UI/UX Design</h3>
@@ -132,10 +133,10 @@
     </section>
     <!-- Portfolio -->
     <section class="portfolio" id="portfolio">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>My <span>Portfolio</span></h2>
         </div>
-        <div class="portfolio-content">
+        <div class="portfolio-content" data-aos="zoom-in-down">
             <div class="row">
                 <img src="./assets/5724ca4d6e49dec0122a023547a03a079a7cdf3f-1600x904.png" alt="">
                 <div class="main-row">
@@ -212,10 +213,10 @@
         </div>
     </section>
     <section class="contact" id="contact">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>Contact <span>Me</span></h2>
         </div>
-        <div class="contact-form">
+        <div class="contact-form" data-aos="zoom-in">
             <form action="">
                 <input type="text" placeholder="Your Name"  required>
                 <input type="text" placeholder="Email Address.." required>
@@ -226,7 +227,7 @@
     </section>
     <div class="footer">
         <div class="copyright">
-            <p>2024 NajeeB Ullah, All Right Reserved.</p>
+            <p> &copy 2024 NajeeB Ullah, All Right Reserved.</p>
             <a href="#home" class="scroll-top">
                 <i class="ri-arrow-up-s-fill"></i>
             </a>
@@ -234,5 +235,14 @@
 
     </div>
     <script src="first.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+  AOS.init({
+    offset: 300,
+    duration: 1400,
+  }
+
+  );
+    </script>
 </body>
 </html>
