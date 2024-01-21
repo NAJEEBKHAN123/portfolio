@@ -46,8 +46,8 @@ span{
     display: flex;
 }
 .navlist a{
-    font-size: 25px;
-    /* font-size: var(--p-font); */
+    /* font-size: 25px; */
+    font-size: var(--p-font);
     font-weight: 500;
     color: var(--other-color);
     margin-left: 40px;
@@ -64,7 +64,7 @@ span{
     font-size: 35px;
     z-index: 10001;
     cursor: pointer;
-    /* display:inline-block; */
+    display:none;
 
 }
 .h-btn{
@@ -91,11 +91,11 @@ section{
 .hero{
     height: 100vh;
     width: 100%;
-    background: url(./assets/me-removebg-preview.png);
-    background-position: right bottom;
-    float: right;
+    background: url(./assets/bg-pic4-removebg-preview.png);
+    background-position: top right;
+    /* float: right; */
     background-repeat: no-repeat;
-    /* background-size:cover; */
+    background-size:cover;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -545,4 +545,4 @@ form .send-btn:hover{
         object-fit: cover;
         margin: 0 auto;
     }
-}
+} 
